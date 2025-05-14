@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Awesome Blog</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>My Awesome Blog</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article class="blog-post fade-in">
+      <h2>First Blog Post</h2>
+      <p class="date">Posted on May 14, 2025</p>
+      <p>Welcome to my first blog post! This blog is built with HTML, CSS, and JavaScript.</p>
+      <button onclick="toggleLike()">❤️ Like (<span id="like-count">0</span>)</button>
+    </article>
+
+    <article class="blog-post fade-in">
+      <h2>Second Blog Post</h2>
+      <p class="date">Posted on May 13, 2025</p>
+      <p>This is another article showcasing responsive layout and localStorage interactivity.</p>
+      <button onclick="toggleLike()">❤️ Like (<span id="like-count">0</span>)</button>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Awesome Blog. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
